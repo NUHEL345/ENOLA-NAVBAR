@@ -5,13 +5,75 @@
     text-decoration: none;
     list-style-type: none;
 }
+body {
+    font-family:'Inter', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
 
-body{
+.container {
+    background-color: #fff; 
+    display: flex;
+    max-width: 960px; 
+    width: 90%; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    padding: 40px; 
+}
+
+.left-content {
+    flex: 1; 
+    padding-right: 30px; 
+}
+
+.left-content h1 {
+    font-size: 40px; 
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+.left-content p {
+    font-size: 16px; 
+    color: #000; 
+    line-height: 1.6; 
+    margin-bottom: 30px;
+    padding: 24px;
+}
+
+.contact-button {
+    background-color: purple; 
+    color: #fff; 
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:16px;
+}
+
+.contact-button:hover {
+    background-color: #6c3483; 
+}
+
+.right-content {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.right-content img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* body{
 display: flex;
 flex-direction: column;
 }
-
-/* // Add a container div before nav, the logo, links and button */
 
 .container {
 width: 1200px;
@@ -25,7 +87,7 @@ flex-wrap: wrap;
     font-weight: 700;
     margin: 2px;
 }
-
+ */
 nav{
     display: flex;
     justify-content: space-between;
